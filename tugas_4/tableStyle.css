@@ -1,0 +1,18 @@
+button:hover{
+    background-color: red;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-primary {
+    background-color: #b94b22;
+    color: #FFF;
+}
+
+.button-primary:hover {
+    background-color: #77a33b;
+}

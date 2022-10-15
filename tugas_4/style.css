@@ -1,0 +1,85 @@
+body {
+    background-color: #f0f0f0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding-top: 60px;
+}
+
+form {
+    padding:15px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+p label:first-child {
+    display: inline-block;
+    width: 250px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    color:#FFF;
+    padding:10px 15px;
+    text-align: center;
+    background-color: #77a33b;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input{
+    font-weight: bold;
+    color:#FFF;
+    padding:10px 15px;
+    align: left;
+    text-align: center;
+    background-color: ghostwhite;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+}
+
+button:hover{
+    background-color: red;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-primary {
+    background-color: #b94b22;
+    color: #FFF;
+}
+
+.button-primary:hover {
+    background-color: #77a33b;
+}
+
+/* #email {
+    border-color:red;
+} */
+
+input[type="email"],
+textarea{
+    border-color:red;
+    border-width: 2px;
+}
+/*.img-magnifier-glass {
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Atur ukuran kaca pembesar:*/
+/*  width: 5px;
+  height: 5px;
+}
+.img-magnifier-container {
+  position:relative;*/*/

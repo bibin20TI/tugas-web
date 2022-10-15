@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="proses.php" method="post">
+        <p>
+            <span>
+                <label for="nama">Nama</label>
+                <input type="text" name="nama" id="nama" />
+            </span>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+        </p>
+        <p>
+            <label for="tanggal">Tanggal Lahir</label>
+            <input type="date" name="tanggal" id="tanggal" />
+        </p>
+        <p>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto" />
+        </p>
+        <p>
+            <label for="gender">Jenis Kelamin</label>
+            <label for="male">
+                <input type="radio" name="gender" id="male" value="laki-laki" /> Laki-laki
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female" value="perempuan" /> Perempuan
+            </label>
+        </p>
+        <p>
+            <label for="hobby">Hoby</label>
+            <label for="membaca">
+                <input type="checkbox" name="hobby" id="membaca" value="membaca" /> Membaca
+            </label>
+            <label for="menulis">
+                <input type="checkbox" name="hobby" id="menulis" value="menulis" /> Menulis
+            </label>
+            <label for="menggambar">
+                <input type="checkbox" name="hobby" id="menggambar" value="menggambar" /> Menggambar
+            </label>
+        </p>
+        <p>
+            <label for="jurusan">Jurusan yang dipilih</label>
+            <select name="jurusan" id="jurusan">
+                <option value="teknik-informatika">Teknik Informatika</option>
+                <option value="teknik-komputer">Teknik Komputer</option>
+                <option value="teknik-elektro">Teknik Elektro</option>
+                <option value="teknik-mesin">Teknik Mesin</option>
+            </select>
+
+            <!-- <select name="jurusan" multiple id="jurusan">
+                <option value="teknik-informatika">Teknik Informatika</option>
+                <option value="teknik-komputer">Teknik Komputer</option>
+                <option value="teknik-elektro">Teknik Elektro</option>
+                <option value="teknik-mesin">Teknik Mesin</option>
+            </select> -->
+        </p>
+        <p>
+            <label for="komentar">Komentar</label>
+            <textarea name="komentar" rows="7" id="komentar"></textarea>
+        </p>
+
+        <div class="action">
+            <button class="button-primary" type="submit">Submit</button>
+            <button type="button">Button</button>
+            <button class="button-primary" type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

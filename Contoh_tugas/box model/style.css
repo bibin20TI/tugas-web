@@ -1,0 +1,13 @@
+article {
+            background-color:antiquewhite;
+            padding:10px 15px;
+            border:solid 1px black;
+            margin-bottom:15px;
+            width:500px;
+        }
+        .border-box {
+            box-sizing: border-box;
+        }
+        .content-box {
+            box-sizing: content-box;
+        }

@@ -1,0 +1,12 @@
+article.testimonials img {
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    padding-right: 15px;
+}
+article.testimonials .author-information {
+    box-sizing: border-box;
+    display:inline;
+} 

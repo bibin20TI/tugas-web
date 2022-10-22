@@ -19,8 +19,8 @@
 
 
 .satu{
-	flex-grow: 9;
-	background-image: url(gambar/gambarUtama.png);
+	flex-grow: 11;
+	background-image: url(gambar/tema.jpg);
 }
 .dua{
 	display: flex;
@@ -42,7 +42,7 @@
 	display: flex;
 	flex-grow: 3;
 	flex-direction: row;
-	margin: 20px;
+	margin-bottom: 30px;
 	
 }
 .enam{

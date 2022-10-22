@@ -58,7 +58,10 @@
 	margin-left: 30px;
 }
 .tujuh{
+	
 	flex-grow: 7;
+	border-radius: 30px;
+	border: 2px solid black;
 }
 .delapan{
 	flex-grow: 7;
@@ -91,7 +94,7 @@
 	flex-grow: 1;
 	background-image: url(gambar/federasi.png);
 	background-repeat: no-repeat;
-	background-size: 400px;
+	background-size: 400pxu;
 }
 
 .card3{
@@ -127,4 +130,70 @@
 .executive{
 	font-family: sans-serif;
 	font-size: 50px;
+}
+.rankEven{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.senior{
+	flex-grow: 1;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.flex-kolom{
+	display: flex;
+	flex-direction: row;
+}
+.flex-baris{
+	display: flex;
+	flex-direction: column;
+}
+.atlete{
+	flex-grow: 1;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	padding: 5px;
+}
+.ranking{
+	flex-grow: 1;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	padding: 5px;
+}
+.score{
+	flex-grow: 1;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	padding: 5px;
+}
+
+.master{
+	flex-grow: 1;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgreen;
+	font-family: sans-serif;
+	font-size: 20px;
+
+}
+
+table{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 2px solid black;
 }

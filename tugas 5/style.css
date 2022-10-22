@@ -12,3 +12,8 @@
 	font-size: 30px;
 	background-image: url('gambar/gambarUtama.png');
 }
+
+.header ul li{
+	display: inline;
+	margin-right: 100px;
+}

@@ -46,10 +46,14 @@
 	background-color: cyan;
 }
 .lima{
+	display: flex;
 	flex-grow: 7;
+	flex-direction: row;
 }
 .enam{
-	flex-grow: 7;
+	display: flex;
+	flex-grow: 9;
+	flex-direction: row;
 }
 .tujuh{
 	flex-grow: 7;
@@ -62,22 +66,46 @@
 }
 .card{
 	flex-grow: 1;
-	
-	
 	background-image: url(gambar/gambarCard.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
+	
 .cardAlison{
 	flex-grow: 1;
 	background-image: url(gambar/alison.png);
+	background-repeat: no-repeat;
+	background-position: center;
+
 }
 .cardAlicia{
-	flex-grow: 1;
+	flex-grow:1;
 	background-image: url(gambar/alicia.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .card2{
 	flex-grow: 1;
 	background-image: url(gambar/federasi.png);
+
+	background-repeat: no-repeat;
 }
 .card3{
 	flex-grow: 1;
+}
+.cardDaun1{
+	flex-grow:1 ;
+	background-image: url('gambar/union.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	
+}
+.cardSepatu{
+	flex-grow: 1;
+	background-image: url('gambar/sepatu.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: cyan;
+	border-radius: 30px;
 }

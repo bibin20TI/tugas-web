@@ -64,6 +64,8 @@
 	border: 2px solid black;
 }
 .delapan{
+	display: flex;
+	flex-direction: row;
 	flex-grow: 7;
 }
 .sembilan{
@@ -196,4 +198,31 @@ table{
 	font-size: 20px;
 	border-radius: 20px;
 	border: 2px solid black;
+}
+.news{
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.cardNews1{
+	flex-grow: 1;
+	border-radius: 10px;
+	background-image: url(gambar/cardGambar.png);
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+.cardNews2{
+	flex-grow: 1;
+	border-radius: 10px;
+	background-image: url(gambar/cardGambar2.png);
+	background-repeat: no-repeat;
+	margin: 20px;
+}
+
+.cardNews3{
+	flex-grow: 1;
+	border-radius: 10px;
+	background-image: url(gambar/cardGambar3.png);
+	background-repeat: no-repeat;
+	margin: 20px;
 }

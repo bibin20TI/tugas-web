@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="">Input Bilangan</label>
+            <input type="text" name="" id="bilangan" />
+        </p>
+        <p>
+            <button type="button" id="btn">Cek Bilangan</button>
+        </p>
+        <div class="result">
+            grade <span id="bil">--</span>
+        </div>
+    </form>
+
+    <script>
+        const button = document.querySelector('#btn');
+        const resultArea = document.querySelector('.result');
+        resultArea.style.display = 'none';
+
+        button.addEventListener('click', function() {
+            const bil = document.getElementById('bilangan').value;
+            const hasil = document.getElementById('bil');
+
+            if(bil > 80){
+                hasil.innerHTML ='A';
+            }else if((bil<=80)&&(bil>=70)){
+                hasil.innerHTML = 'B'
+            }else if((bil<70)&&(bil>=60)){
+                hasil.innerHTML='C';
+            }else if(bil<60){
+                hasil.innerHTML='D'
+            }else{
+                alert('salah memasukan bilangan');
+            }
+            resultArea.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

@@ -11,7 +11,7 @@
     
 </head>
 <body>
-   <section class="mb-10 text-center">
+   <section id="tombol" class="mb-10 text-center">
    <div class="bg-white h-32 p-10 text-gray-400"><a class="mr-10 font-bold"href="#">home</a><a class="mr-10" href="#">Service</a><a class="mr-10" href="#">produk</a><a href="#">produk</a>
    <a class="mr-10" href="#">OurWork</a><a class="mr-10" href="#">Resource</a><a class="mr-10"href="#">Contact</a><button class="text-white bg-blue-600 rounded-2xl p-3"type="submit">Get Started</button></div>
     
@@ -143,7 +143,14 @@
          <div class="m-10 text-white font-bold "><h1></h1></div>
       </section>
        
+<script>
+     const buttonTombol = document.querySelector('section#tombol button');
 
+     buttonTombol.addEventListener('click',function(){
+        alert('anda menekan button');
+     });
+
+</script>
 
     
 </body>
